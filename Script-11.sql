@@ -8,7 +8,8 @@ AS $$
 BEGIN 
 	INSERT INTO actor(title, description, release_year, rental_duration,
 renta_rate, length, replace_cost, rating)
-	VALUES(first_name, last_name, NOW());
+	VALUES(title, description, release_year, rental_duration,
+renta_rate, length, replace_cost, rating);
 END;
 $$;
 
